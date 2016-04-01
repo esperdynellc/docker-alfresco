@@ -1,7 +1,8 @@
 # gui81/alfresco
 
 FROM centos:centos7
-MAINTAINER Lucas Johnson <lucasejohnson@netscape.net>
+#MAINTAINER Lucas Johnson <lucasejohnson@netscape.net>
+MAINTAINER Michael Klatsky <mklatsky@esperdyne.com>
 
 # install some necessary/desired RPMs and get updates
 RUN yum update -y && \
